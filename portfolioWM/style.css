@@ -1,0 +1,158 @@
+body {
+    background-color: #303030;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle {
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+}
+
+.square {
+    width: 50%;
+    float: left;
+}
+
+#logo {
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#timer {
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.tile1,
+.tile2,
+.tile3,
+.tile4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    float: left;
+}
+
+.tile1 i,
+.tile2 i,
+.tile3 i {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile1 {
+    background-color: #3095d3;
+}
+.tile1:hover {
+    background-color: #2084c2;
+}
+
+.tile2 {
+    background-color: #666666;
+}
+.tile2:hover {
+    background-color: #555555;
+}
+
+.tile3 {
+    background-color: #83c748;
+}
+.tile3:hover {
+    background-color: #72b637;
+}
+
+.tile4 {
+    width: 480px;
+    background-color: #970a90;
+}
+.tile4:hover {
+    background-color: #850a80;
+}
+
+.tile5 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 10px;
+    width: 480px;
+    height: 302px;
+    background-color: #f38d09;
+}
+.tile5:hover {
+    background-color: #e27c08;
+}
+.tile5 h3, .tile5 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.socialmedia div {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    float: left;
+}
+
+.yt {
+    background-color: #d94348;
+}
+.yt:hover {
+    background-color: #c93237;
+}
+.fb {
+    background-color: #573fe2;
+}
+.fb:hover {
+    background-color: #462ed1;
+}
+
+.gplus {
+    background-color: #DD4B39;
+}
+.gplus:hover {
+    background-color: #cc3a28;
+}
+
+.tw {
+    background-color: rgba(11, 154, 221, 0.979);
+}
+.tw:hover {
+    background-color: rgba(8, 132, 192, 0.934);
+}
+
+.email{
+    color: whitesmoke;
+    text-decoration: wavy;
+}
