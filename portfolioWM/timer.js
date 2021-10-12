@@ -3,8 +3,8 @@ function countdown()
 		var today = new Date();
 		
 		// var day = today.getDate();
-		// var miesiac = today.getMonth()+1;
-		// var rok = today.getFullYear();
+		// var month = today.getMonth()+1;
+		// var year = today.getFullYear();
 		
 		var hour = today.getHours();
 		if (hour<10) hour = "0"+hour;
